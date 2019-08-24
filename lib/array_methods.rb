@@ -1,4 +1,4 @@
-def find_element_index(scale, value_to_find)
+def find_element_index(array, value_to_find)
    # Add your solution
    count = 0
    while count < array.length do
