@@ -1,9 +1,9 @@
 def find_element_index(scale, value_to_find)
    # Add your solution
-  array.length.times do |count|
-    if array[count] == value_to_find
-      return count
-    end
+   count = 0
+   while count < array.length do
+     array.index(value_to_find[count])
+     count 
 end
 
 def find_max_value(array)
