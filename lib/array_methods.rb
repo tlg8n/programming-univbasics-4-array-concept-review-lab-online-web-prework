@@ -2,7 +2,7 @@ def find_element_index(scale, value_to_find)
    # Add your solution
    count = 0
    while count < array.length do
-     array.index(value_to_find[count])
+     return array.index(value_to_find)
      count += 1
    end
    nil
